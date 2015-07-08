@@ -6,7 +6,7 @@
 #fractions {
   width:inherit;
   height:300px;
-  background-color:yellow;
+  background-color:white;
   margin-bottom: 100px;
 }
 
@@ -14,16 +14,18 @@
   width:96px;
   height: 144px;
   margin:2px;
-  background-color:gray;
+  background-color:ivory;
+  border:solid red;
 }
 
 .decimal {
-    background-color: gray;
+    background-color:ivory;
     height: 144px;
     width: 92px;
     font-size: 2.2em;
     margin: 2px 4px;
     float: left;
+    border: solid red;
 }
 
 .numerator {
@@ -60,17 +62,19 @@
 #zero {
   float:left;
   clear:left;
+  margin-top:3px;
 }
 
 #one {
   float:right;
+  margin-top:3px;
 }
 
 .dot {
-  height:10px;
+  height:16px;
   width:10px;
   border-radius: 5px;
-  margin-top:-7px;
+  margin-top:-10px;
   float:left;
 }
 
